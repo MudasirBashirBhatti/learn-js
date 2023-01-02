@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    var hour , what_time, exact_time;
+    hour = parseInt(prompt("What is current hour?"));
+    what_time = prompt("Select 'am' or 'pm'");
+    exact_time = hour+what_time;
+
+    if(exact_time>=6+"am" && exact_time<= 9+"am"){
+        document.write("Breakfast is served")
+    }else if(exact_time>=11+"am" && exact_time<=1+"pm"){
+        document.write("Time for lunch.");
+    }else if(exact_time>=5+"pm" && exact_time<=8+"pm"){
+        document.write("It’s dinner time.")
+    }else{
+        document.write("Sorry, you’ll have to wait, or go get a snack.")
+    }
+    </script>
+ 
+</body>
+</html>

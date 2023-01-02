@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.flag{
+    display: none;
+}
+    </style>
+
+</head>
+
+<body>
+    <h1>A couple has usd convert it to thai</h1>
+    <input type="text" placeholder="Enter Usd" class="usd">
+    <div class="output">
+        <div class="flag"><img src="./thailand-512x512-33102.png" alt=""></div>
+        <input type="button" value="Convert" onclick="myFunc()">
+        <div class="result"></div>
+    </div>
+
+
+    <script>
+        function myFunc() {
+        var usd_price =document.querySelector(".usd").value;
+
+        var thai = parseFloat(usd_price) * 35.5;
+        document.querySelector(".result").innerHTML = thai;
+        var flag = document.querySelector(".flag");
+        flag.style.display = "block";
+    }
+    </script>
+
+</body>
+
+</html>
