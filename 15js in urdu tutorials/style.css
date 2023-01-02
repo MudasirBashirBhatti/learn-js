@@ -1,0 +1,41 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    /* border: 1px solid red; */
+}
+textarea{
+    resize: none;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    background-color: wheat;
+    outline: none;
+    border: none;
+    box-shadow: 4px 4px 5px rgba(128, 128, 128, 0.699) ;
+}
+
+#numbers{
+    display: inline-block;
+    position: absolute;
+    top: calc(16% + 0px);
+    left: 38%;
+    padding: 2px;
+    background-color: red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#cpos{
+    padding: 2px 30px;
+    background-color: rgb(228, 139, 139);
+    display: inline-block;
+    font-size: x-large;
+    
+}
+
+.margin{
+    margin-right: 20px;
+}
