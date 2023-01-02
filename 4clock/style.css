@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#clocks{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px 30px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    border: 5px yellow solid;
+
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
